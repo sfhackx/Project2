@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Management App for Household Donation Pickups
 
-You can use the [editor on GitHub](https://github.com/sfhackx/Project2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+New Hope Incorporated, an organization that provides support to domestic abuse victims collects donated household goods as a way to raise fund.  Their fleet of trucks need to be monitored and fully utilized for available pickups, so they can collect as many donations as possible.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements
 
-### Markdown
+1. All trucks have their own records in Salesforce with location information and an email address.
+2. A map page is needed to show all truck locations in real time.
+3. A pickup record, which has the location of the donation, can be inserted then matched to the closest truck.  Once matched a notification email is sent to the truck (which has connection and console display to the driver for pickup).
+4. (Bonus) Create an IoT simulation app on Heroku that can send location info to truck records in Salesforce
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Supported Learning
 
-# Header 1
-## Header 2
-### Header 3
+[Salesforce Trailhead module on Geolocation](https://trailhead.salesforce.com/projects/account-geolocation-app) - Geolocation Module
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sfhackx/Project2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
